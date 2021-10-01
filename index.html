@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="my.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<button type="button" id="add">Add action</button><br>
+    <div class="select" id="options">
+        <textarea rows="5" cols="25" placeholder="Description of action" id="desc"></textarea><br>
+        <input type="text" placeholder="How much Money" id="money"><br>
+        <select id="actions">
+            <option>Income</option>
+            <option>Expense</option>
+         </select>
+        <br>
+        <button type="button" id="submit">Submit</button>
+    </div>
+<div >
+    <table class="table">
+        <caption>Table of actions</caption>
+        <tr>
+            <th>Action</th>
+            <th>Description</th>
+            <th>Money</th>
+            <th>Date</th>
+        </tr>
+        <tbody id="table">
+
+        </tbody>
+
+    </table>
+
+</div>
+</body>
+</html>
